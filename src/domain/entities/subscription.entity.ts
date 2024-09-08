@@ -4,4 +4,5 @@ export class Subscription {
   codCli: number;
   inicioVigencia: Date;
   fimVigencia: Date;
+  isValid: boolean;
 }
