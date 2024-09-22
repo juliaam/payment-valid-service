@@ -1,0 +1,9 @@
+services:
+  postgres-db-service:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_DB: servico-assinaturas-validas
+    ports:
+      - "5433:5432"
